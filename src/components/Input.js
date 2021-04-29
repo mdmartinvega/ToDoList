@@ -15,7 +15,7 @@ export default function Input({ setToDoList }) {
     return (
         <form onSubmit = {handleSubmit} className="my-4 mx-4">
             <input type="text"
-            placeholder="Introduce a new task"
+            placeholder="Insert a new task"
             className="form-control"
             onChange={e => setInput(e.target.value)}
             //Siempre en los formularios
